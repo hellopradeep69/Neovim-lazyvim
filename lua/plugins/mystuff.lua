@@ -1,6 +1,6 @@
 return {
   -- Auto Pairs
-  { "jiangmiao/auto-pairs" },
+  -- { "jiangmiao/auto-pairs" },
 
   -- Colorizer
   {
