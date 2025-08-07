@@ -43,3 +43,5 @@ vim.opt.laststatus = 2 -- Always display the status line
 -- TIMING
 vim.opt.timeoutlen = 500 -- Time to wait for a mapped sequence (in ms)
 vim.opt.ttimeoutlen = 0 -- Time to wait for a key code sequence (faster responsiveness)
+
+-- vim.cmd.colorscheme("default") -- example theme
