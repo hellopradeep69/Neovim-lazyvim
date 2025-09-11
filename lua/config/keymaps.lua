@@ -197,8 +197,8 @@ map("t", "<c-_>", "<cmd>close<cr>", { desc = "which_key_ignore" })
 -- windows
 -- Map <leader>o to switch to the next window
 -- vim.keymap.set("n", "<leader>o", "<C-w>w", { noremap = true, silent = true })
-map("n", "<leader>O", "<C-w>W", { noremap = true, silent = true })
-map("n", "<leader>o", "<C-w>w", { desc = "toggle Window",noremap = true, silent = true })
+map("n", "<leader>O", "<C-w>W", { noremap = true, silent = false})
+map("n", "<leader>o", "<C-w>w", { desc = "toggle Window",noremap = true, silent = false})
 map("n", "<leader>-", "<C-W>s", { desc = "Split Window Below", remap = true })
 map("n", "<leader>|", "<C-W>v", { desc = "Split Window Right", remap = true })
 map("n", "<leader>wd", "<C-W>c", { desc = "Delete Window", remap = true })
