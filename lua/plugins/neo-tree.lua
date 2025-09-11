@@ -104,6 +104,8 @@ return {
     }
 
     opts.window = {
+      position = "left", -- left, right, top, bottom, float, current
+      width = 30, -- applies to left and right positions
       mappings = {
         ["l"] = "open",
         ["h"] = "close_node",

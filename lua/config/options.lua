@@ -11,7 +11,7 @@ vim.opt.showcmd = true -- Show (partial) command in the last line of the screen
 vim.opt.cursorline = true -- Highlight the current line
 vim.opt.termguicolors = true -- Enable true color support
 vim.opt.mouse = "" -- Disable mouse support
--- vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "85"
 
 -- FILE AND BACKUP SETTINGS
 vim.opt.swapfile = false -- Don't use swap files
