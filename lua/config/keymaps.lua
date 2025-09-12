@@ -244,6 +244,11 @@ map("v", "<leader>y", '"+y', opts)
 map("v", "J", ":m '>+1<CR>gv=gv", opts)
 map("v", "K", ":m '<-2<CR>gv=gv", opts)
 
+-- Normal mode: <leader>sr opens :%s/
+vim.keymap.set("n", "<leader>sr", ":%s/", { desc = "Search and Replace" })
+-- vim.keymap.set("n", "<leader>sr", ":%s///gc<Left><Left>", { desc = "Search and Replace (global)" })
+
 -- map("n", "<leader>dd", function()
 --   Snacks.bufdelete()
 -- end, { desc = "Delete Buffer" })
+--
