@@ -7,11 +7,17 @@ return {
     style = "relative",
     -- quick_select = "qwertyuio",
     quick_select = "123456789",
+    GrappleTitle = false,
+    default_scopes = {
+      lsp = { hidden = true },
+      git = { hidden = true },
+      static = { hidden = true },
+    },
     win_opts = {
       -- Can be fractional
-      width = 80,
-      height = 10,
-      row = 0.4,
+      width = 70,
+      height = 8,
+      row = 0.5,
       col = 0.5,
 
       relative = "editor",
@@ -27,15 +33,12 @@ return {
       -- footer_pos = "center",
     },
   },
+
   keys = {
-    { "<leader>M", "<cmd>Grapple toggle<cr>", desc = "Tag a file" },
-    { "<leader>m", "<cmd>Grapple toggle_tags<cr>", desc = "Toggle tags menu" },
+    { "<leader>H", "<cmd>Grapple toggle<cr>", desc = "Tag a file" },
+    { "<leader>h", "<cmd>Grapple toggle_tags<cr>", desc = "Toggle tags menu" },
 
-    { "<c-h>", "<cmd>Grapple select index=1<cr>", desc = "Select first tag" },
-    { "<c-t>", "<cmd>Grapple select index=2<cr>", desc = "Select second tag" },
-    { "<c-n>", "<cmd>Grapple select index=3<cr>", desc = "Select third tag" },
-    { "<c-s>", "<cmd>Grapple select index=4<cr>", desc = "Select fourth tag" },
-
+    { "<leader>j", "<cmd>Grapple cycle_scopes next<cr>", desc = "cycle scopes" },
     { "<c-s-n>", "<cmd>Grapple cycle_tags next<cr>", desc = "Go to next tag" },
     { "<c-s-p>", "<cmd>Grapple cycle_tags prev<cr>", desc = "Go to previous tag" },
   },

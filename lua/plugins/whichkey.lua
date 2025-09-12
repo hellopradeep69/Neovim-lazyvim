@@ -11,7 +11,7 @@ return {
       -- col = 0,
       -- row = math.huge,
       -- border = "none",
-      padding = { 1, 2 }, -- extra window padding [top/bottom, right/left]
+      -- padding = { 1, 2 }, -- extra window padding [top/bottom, right/left]
       title = true,
       title_pos = "left",
       zindex = 1000,

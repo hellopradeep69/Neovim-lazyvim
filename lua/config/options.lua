@@ -3,6 +3,7 @@
 -- Default options: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 
 vim.opt.cmdheight = 0
+vim.opt.showmode = false
 -- GENERAL SETTINGS
 vim.opt.number = true -- Show line numbers
 vim.opt.relativenumber = true -- Show relative line numbers
@@ -46,4 +47,5 @@ vim.opt.laststatus = 2 -- Always display the status line
 vim.opt.timeoutlen = 500 -- Time to wait for a mapped sequence (in ms)
 vim.opt.ttimeoutlen = 0 -- Time to wait for a key code sequence (faster responsiveness)
 
+vim.opt.background = "dark"
 -- vim.cmd.colorscheme("default") -- example theme

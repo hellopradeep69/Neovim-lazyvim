@@ -27,7 +27,7 @@ return {
       -- replace = "gsr", -- Replace surrounding
       -- update_n_lines = "gsn", -- Update `n_lines`
       add = "<leader>a", -- Add surrounding in Normal and Visual modes
-      delete = "<leader>ds", -- Delete surrounding
+      -- delete = "<leader>sd", -- Delete surrounding
       -- find = "<leader>fs", -- Find surrounding (to the right)
       -- find_left = "<leader>Fs", -- Find surrounding (to the left)
       -- highlight = "<leader>r", -- Highlight surrounding
