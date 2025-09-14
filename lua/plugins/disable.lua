@@ -7,4 +7,5 @@ return {
     enabled = false,
   },
   { "catppuccin/nvim", enabled = false },
+  { "folke/ts-comments.nvim", enabled = true },
 }
