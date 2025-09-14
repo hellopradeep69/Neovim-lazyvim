@@ -27,9 +27,6 @@ return {
     opts = { use_diagnostic_signs = true },
   },
 
-  -- disable trouble
-  { "folke/trouble.nvim", enabled = false },
-
   -- disable alpha dashboard
   { "goolord/alpha-nvim", enabled = false },
 

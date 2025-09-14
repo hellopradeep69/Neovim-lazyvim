@@ -59,8 +59,8 @@ return {
 
       local map = vim.keymap.set
       -- Buffer navigation
-      map("n", "H", "<Cmd>BufferPrevious<CR>", { desc = "Previous buffer" })
-      map("n", "L", "<Cmd>BufferNext<CR>", { desc = "Next buffer" })
+      map("n", "L", "<Cmd>BufferPrevious<CR>", { desc = "Previous buffer" })
+      map("n", "H", "<Cmd>BufferNext<CR>", { desc = "Next buffer" })
       map("n", "<Tab>", "<Cmd>BufferNext<CR>", { desc = "Next buffer" })
       map("n", "<S-Tab>", "<Cmd>BufferPrevious<CR>", { desc = "Previous buffer" })
 

@@ -89,7 +89,7 @@ return {
     })
   end,
   opts = function(_, opts)
-    opts.close_if_last_window = true -- Close Neo-tree if it is the last window left in the tab
+    -- opts.close_if_last_window = true -- Close Neo-tree if it is the last window left in the tab
     opts.sources = { "filesystem", "buffers", "git_status" }
     opts.open_files_do_not_replace_types = { "terminal", "Trouble", "trouble", "qf", "Outline" }
 
